@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.veloceflix" name="Addò-flix" version="1.2.2" provider-name="Addoflix">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="it_IT">Interfaccia a righe in stile streaming, con ricerca link tramite Stream for Me</summary>
+    <description lang="it_IT">Home con in evidenza e righe orizzontali (tendenze, cinema, piu votati), schede dettaglio, La mia lista e Visti di recente. Per guardare usa Stream for Me (plugin.video.s4me), se installato. Dati e locandine da TMDB.</description>
+    <platform>all</platform>
+    <license>GPL-3.0-or-later</license>
+    <assets>
+      <icon>resources/addoflix_icon_v2.png</icon>
+      <fanart>resources/addoflix_fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="repository.addoflix" name="Repository Addò-flix" version="1.0.0" provider-name="Addoflix">
+  <extension point="xbmc.addon.repository" name="Repository Addò-flix">
+    <dir>
+      <info compressed="false">https://tv9793-collab.github.io/kdr-x7q4m2v9/addons.xml</info>
+      <checksum>https://tv9793-collab.github.io/kdr-x7q4m2v9/addons.xml.md5</checksum>
+      <datadir zip="true">https://tv9793-collab.github.io/kdr-x7q4m2v9/zips/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="it_IT">Aggiornamenti automatici di Addò-flix</summary>
+    <description lang="it_IT">Installa questo repository per ricevere gli aggiornamenti di Addò-flix.</description>
+    <platform>all</platform>
+    <assets><icon>addoflix_icon_v2.png</icon></assets>
+  </extension>
+</addon>
+
+</addons>
