@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.veloceflix" name="Addò-flix" version="1.2.7" provider-name="Addoflix">
+<addon id="plugin.video.veloceflix" name="Addò-flix" version="1.2.8" provider-name="Addoflix">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
